@@ -1,0 +1,31 @@
+name: Build, Test, Lint for Pull Requests
+env:
+  CI: true
+  FORCE_COLOR: 1
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  setup:
+    name: Setup, Build, Lint and Test
+    runs-on: ubuntu-16.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      # install a specific version of Node using
+      # https://github.com/actions/setup-node
+      - name: Use Node.js v12.19
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.19
+      - name: Print CI env variables
+        run: |
+          npm i -g @bahmutov/print-env@2
+          print-env GITHUB_ACTOR BODILESS GITHUB BUILD ACTIONS || true
