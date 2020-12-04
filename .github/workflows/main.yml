@@ -27,4 +27,4 @@ jobs:
       - name: Print CI env variables
         run: |
           npm i -g @bahmutov/print-env@2
-          print-env GITHUB_ACTOR BODILESS GITHUB BUILD ACTIONS || true
+          print-env GITHUB_ACTOR NPM_TOKEN || true
