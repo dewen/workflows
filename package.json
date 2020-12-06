@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lerna:publish": "lerna publish from-git --yes --dist-tag latest",
     "publish:patch": "lerna version patch --conventional-commits --force-publish"
   },
   "repository": {
