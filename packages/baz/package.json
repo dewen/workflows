@@ -1,0 +1,17 @@
+{
+  "name": "@dewen_li/baz",
+  "version": "0.0.1",
+  "description": "changes for ver 0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@geut/foo": "^0.0.3"
+  },
+  "author": "d1",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
