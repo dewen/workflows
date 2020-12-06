@@ -2,4 +2,4 @@
 
 ## Repo rules
 
-- No direct push to default branch (main).
+- No direct push to default branch ('main').
