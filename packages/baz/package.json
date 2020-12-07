@@ -1,6 +1,6 @@
 {
   "name": "@dewen_li/baz",
-  "version": "0.0.1",
+  "version": "0.0.12",
   "description": "changes for ver 0.0.1",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,6 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "a072481b47e98be6d7c8f7b5d595bad945f5e880"
 }

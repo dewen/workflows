@@ -1,6 +1,6 @@
 {
   "name": "@dewen_li/foo",
-  "version": "0.0.1",
+  "version": "0.0.12",
   "description": "nothing to see here.",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,6 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "a072481b47e98be6d7c8f7b5d595bad945f5e880"
 }
