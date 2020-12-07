@@ -26,5 +26,5 @@ jobs:
           npm i -g @bahmutov/print-env@2
           print-env GITHUB_ACTOR NPM_TOKEN || true
           echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
-          echo 'Lerna publish'
           cat $HOME/.npmrc
+          npm run lerna:publish
