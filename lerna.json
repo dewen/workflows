@@ -5,9 +5,9 @@
   "lerna": "2.0.0",
   "command": {
     "publish": {
-      "allowBranch": "action3",
+      "allowBranch": "release",
       "message": "chore(release): publish %s"
     }
   },
-  "version": "0.0.13"
+  "version": "0.0.14"
 }
