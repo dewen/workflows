@@ -1,6 +1,6 @@
 {
   "name": "@dewen_li/foo",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "nothing to see here.",
   "main": "index.js",
   "scripts": {

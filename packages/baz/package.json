@@ -1,6 +1,6 @@
 {
   "name": "@dewen_li/baz",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "changes for ver 0.0.1",
   "main": "index.js",
   "scripts": {
