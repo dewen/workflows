@@ -21,7 +21,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.19
-      - name: Print CI env variables
+      - name: Build
+        run: npm install          
+      - name: Publish npm packages
         run: |
           npm i -g @bahmutov/print-env@2
           print-env GITHUB_ACTOR NPM_TOKEN || true
